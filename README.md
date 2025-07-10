@@ -1,11 +1,9 @@
-# [libpcre.zig](https://github.com/kivikakk/libpcre.zig)
+# libpcre.zig
 
-![Build status](https://github.com/kivikakk/libpcre.zig/workflows/build/badge.svg)
-
-Use via the zig package manager (Zig v0.12+):
+Use via the zig package manager:
 
 ```sh
-$ zig fetch --save https://github.com/kivikakk/libpcre.zig/archive/<commit hash>.tar.gz
+$ zig fetch --save git+https://nossa.ee/~talya/libpcre.zig
 ```
 
 Then add the following to `build.zig` (a source build of `pcre` will be linked against automatically):
