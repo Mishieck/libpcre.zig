@@ -3,12 +3,12 @@
     .version = "0.1.0",
     .dependencies = .{
         .pcre = .{
-            .url = "https://github.com/kivikakk/pcre-8.45/archive/6a08aa250b3ca1deea5fbc5f696bb4e25ac2da90.tar.gz",
-            .hash = "pcre-8.45.0-AAAAAN3FlADQe8mToDeNIJ0RXIk30ytiW7cNOsnvmXXv",
+            .url = "git+https://github.com/mishieck/pcre-8.45.git?ref=chore-use-zig-0.15.1#4227589d011e95dfb4242a22dc230574deadb274",
+            .hash = "pcre-8.45.0-HTSBAQ3GlACATeP1fwTiNwB0B-4F81hDsArROAnP7nwX",
         },
     },
     .fingerprint = 0xc2f976f309fad70e,
-    .minimum_zig_version = "0.14.0",
+    .minimum_zig_version = "0.15.1",
     .paths = .{
         "build.zig",
         "build.zig.zon",
