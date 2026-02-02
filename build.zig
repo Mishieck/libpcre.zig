@@ -23,7 +23,6 @@ pub fn build(b: *std.Build) !void {
         .target = target,
     });
     try linkPcre(b, mod, libpcre, use_system);
-    // mod.addImport("pcre", pcre_dep.module("pcre"));
 
     const lib = b.addLibrary(.{
         .name = "libpcre.zig",
